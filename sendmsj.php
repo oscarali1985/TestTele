@@ -1,5 +1,5 @@
 <?php
-header("Content-Type: application/json; charset=UTF-8");
+//header("Content-Type: application/json; charset=UTF-8");
 // digitel 677779190
 // movistar 643117404
 //Jhorman 835119661
@@ -45,7 +45,7 @@ $result =json_encode($resultado->result);
 
 if( $resultado->ok == true){
     echo '<script language="javascript">alert(" Mensaje Enviado';
-    echo $resultado->ok;
+    //echo $resultado->ok;
     echo '");</script>';
 }else {
     echo '<script language="javascript">alert(" El mensaje no se pudo enviar ';
@@ -53,8 +53,8 @@ if( $resultado->ok == true){
     echo '");</script>';
 }
 
-echo $resultado->ok;
-echo $result->message_id;
+//echo $resultado->ok;
+//echo $result->message_id;
 
 curl_close($ch);
 
