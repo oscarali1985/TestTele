@@ -7,13 +7,7 @@
 //channel 686449807
 
 function mandarmensaje(){
-$token = "1039242221:AAHqzyXt8Y-Nwfd35u0H-eNpKfVzxx9CB7k";
 
-$idu = "oscaralimd1985";
-$idd = "677779190";
-$idm = "643117404";
-$idj = "835119661";
-$idch = "@oamdchannel";
 $urlMsg = "https://api.telegram.org/bot{$token}/sendMessage";
 $msg = "no te olvides de probar lo del CRM jajaja. saludo";
 
